@@ -31,7 +31,7 @@ lyr_GoogleSatellite_0.setVisible(true);lyr_lotgabung_1.setVisible(true);
 var layersList = [lyr_GoogleSatellite_0,lyr_lotgabung_1];
 lyr_lotgabung_1.set('fieldAliases', {'FID': 'FID', 'AREA': 'AREA', 'NO_LOT': 'NO_LOT', 'TSP — hakm': 'TSP — hakm', 'TSP — ha_1': 'TSP — ha_1', 'TSP — pemi': 'TSP — pemi', 'N0_LOT': 'N0_LOT', 'layer': 'layer', 'path': 'path', });
 lyr_lotgabung_1.set('fieldImages', {'FID': '', 'AREA': '', 'NO_LOT': '', 'TSP — hakm': '', 'TSP — ha_1': '', 'TSP — pemi': '', 'N0_LOT': '', 'layer': '', 'path': '', });
-lyr_lotgabung_1.set('fieldLabels', {'FID': 'no label', 'AREA': 'header label - visible with data', 'NO_LOT': 'header label - visible with data', 'TSP — hakm': 'no label', 'TSP — ha_1': 'no label', 'TSP — pemi': 'no label', 'N0_LOT': 'header label - visible with data', 'layer': 'no label', 'path': 'no label', });
+lyr_lotgabung_1.set('fieldLabels', {'FID': 'no label', 'AREA': 'header label - visible with data', 'NO_LOT': 'header label - visible with data', 'TSP — hakm': 'no label', 'TSP — ha_1': 'no label', 'TSP — pemi': 'no label', 'N0_LOT': 'header label - visible with data', 'layer': 'hidden field', 'path': 'no label', });
 lyr_lotgabung_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
